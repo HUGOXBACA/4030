@@ -1,0 +1,7 @@
+++++cse4030Lab6pt1++++++
+Vs 1 0 PWL (0 0 2m 12 6m 0)
+C1 1 0 2u
+.Tran 1ms 7ms
+.PLOT Tran V(1) 
+.PROBE
+.END 

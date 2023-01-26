@@ -1,0 +1,28 @@
+
+**** 10/10/22 11:46:53 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ****CSE4030Lab7pt2*****
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+Vs 0 1 DC 6V
+R1 1 2  2k
+R3 1 3 12k
+R4 3 0 6k 
+
+
+
+.Tran 1ms 7ms
+.PLOT Tran V(1)
+.PROBE
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node 2.
+

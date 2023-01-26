@@ -1,0 +1,11 @@
+++ LAB 1 ++
+V5 109
+
+R1 126
+
+R2 203
+
+.TRAN 1m 5ms
+.PLOT TRAN V(1)
+.PROBE
+.END

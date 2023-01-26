@@ -1,0 +1,13 @@
+****CSE4030Lab10_pt2****
+
+Is 1 0 SIN(0 4 60 0 0 90)
+R1 1 0 2
+R2  2 0 4
+RL  3 0 1.44
+L 1 2 0.00265
+C 2 3 0.0061687
+
+.Tran 1ms 100ms
+.PLOT Tran V(1)
+.PROBE
+.END

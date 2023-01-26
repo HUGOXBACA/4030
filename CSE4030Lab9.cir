@@ -1,0 +1,11 @@
+****CSE4030Lab9****
+
+Vs 1 0 SIN(0 14.14 60 0 0 60) 
+R1 1 2 2
+L  2 0 2 
+
+.Tran 2ms 10ms
+.PLOT Tran V(1)
+.PROBE
+.END
+

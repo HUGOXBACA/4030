@@ -1,0 +1,14 @@
+++++CSE4030Lab6pt++++
+V1 4 0 DC 12v 
+I1 0 1 8mA
+I2 1 3  2mA
+R1 1 0 3k
+C 1 2 10nF
+L 2 3 1H
+R2 2 4 6k
+R3 3 0 2k 
+
+.Tran 1ms 5ms 
+.PLOT Tran V(1) V(2)
+.PROBE 
+.END

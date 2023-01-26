@@ -1,0 +1,10 @@
+****CSE4010Lab7pt1****
+
+
+Is 0 1 PWL( 0 0  1m 20 2m 10 3m 10 4m 0 )
+L 1 0 5mH
+
+.Tran 1ms 7ms
+.PLOT Tran V(1)
+.PROBE
+.END

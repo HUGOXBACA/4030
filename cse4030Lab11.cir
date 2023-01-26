@@ -1,0 +1,10 @@
+****cse4030Lab11****
+
+V1 1 0 AC 10
+R1 1 2 10k
+C1 2 0 20mF
+
+.AC DEC  10  0.01 100 
+.PLOT AC  V (1)
+.PROBE 
+.END

@@ -1,0 +1,21 @@
++++++CSE4030Lab4+++++
+V1 1 0 PWL(0 1V 5ms 2V)
+V2 2 0 DC 2V 
+R1 2 3  10K
+R2 3 5 10K 
+R3 6 0 10K
+R4 8 6  30K
+Ri 1 2 1MEG
+Ro 4 5 10 
+Ri2 5 6 1MEG
+Ro2  7 8 10
+E1 4 0 1 2 1MEG
+E2 7 0 5 6 1MEG
+
+
+.Tran 1ms 5ms
+.PLOT Tran V(1) V(2)
+.PROBE 
+.END 
+
+

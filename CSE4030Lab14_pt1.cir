@@ -1,0 +1,10 @@
+****CSE4030Lab14_pt1****
+
+V1 0 1 PULSE(10 -10 0 0 0 5m 10m)
+R1 1 2 1k
+C1 2 0  .796u
+
+.TRAN 1ms 100ms
+.PLOT TRAN V(1)
+.PROBE
+.END

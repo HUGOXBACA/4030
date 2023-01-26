@@ -1,0 +1,15 @@
+****CSE4030Lab9_pt2****
+
+Vs 1 0  SIN( 0 24 60 0 0 150 )
+R1 1 2 4
+R2 2 3 8
+L 2 0 .0159H
+C 3 0 .663mF   
+
+
+.TRAN 1ms 60ms
+.PLOT TRAN V(1)
+.PROBE
+.END
+
+

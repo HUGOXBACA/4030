@@ -1,0 +1,18 @@
+****CSE4030Lab13_pt2****
+Vs 1 0 PWL(0 0 0.1m 1)
+
+R1 1 2 1
+R2 2 3 1
+R3 2 4 2
+
+C1 2 0 1
+C2 4 3 1
+
+Ri 3 0 1MEG
+R0 5 4 10
+E1 5 0 3 0 1MEG
+
+.TRAN 1s 30s
+.PLOT TRAN V(1)
+.PROBE 
+.END
