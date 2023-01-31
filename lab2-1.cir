@@ -1,0 +1,14 @@
+*********** LAB_2**************
+R0  0 1 12kohm
+R1  0 2  12Kohms
+R2  1 0 12Kohms
+R3  0 2 12kohms
+R4  1 2 12kohms
+Is 0 1  4ma
+
+
+
+.TRAN 1m 5m
+.PLOT  TRAN V(Is)
+.PROBE
+.END
